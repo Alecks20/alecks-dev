@@ -1,0 +1,3 @@
+"https://alecks.dev" {
+	reverse_proxy http://website
+}
