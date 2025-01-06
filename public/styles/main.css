@@ -21,3 +21,17 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.lightbulb {
+    height: 200px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-left-fixed {
+    bottom: 0;
+    left: 0;
+    height: 400px;
+    position: absolute;
+}
