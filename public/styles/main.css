@@ -1,0 +1,23 @@
+
+:root {
+    --background-colour: #1a1c1e;
+}
+
+body {
+    font: calc(0.40rem + 1vmin) monospace;
+    background-color: var(--background-colour);
+}
+
+.float-left {
+    float : left;
+}
+
+.float-right {
+    float: right;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
