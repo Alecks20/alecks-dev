@@ -1,4 +1,9 @@
 .totoro {
-    height: 250px;
-    position: absolute;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.totoro-container {
+
 }
