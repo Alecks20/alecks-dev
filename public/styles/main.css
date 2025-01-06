@@ -22,10 +22,11 @@ body {
     align-items: center;
 }
 
-.lightbulb {
+.hanging-plant {
     height: 200px;
     position:absolute;
     left: 50%;
+    top: -8%;
     transform: translateX(-50%);
 }
 
