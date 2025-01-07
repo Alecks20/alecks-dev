@@ -17,14 +17,13 @@ body {
 }
 
 .centered {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .hanging-plant {
     height: 200px;
-    position:absolute;
+    position: fixed;
     left: 50%;
     top: -8%;
     transform: translateX(-50%);
@@ -33,13 +32,19 @@ body {
 .bottom-left-fixed {
     bottom: 0;
     left: 0;
-    height: 400px;
-    position: absolute;
+    height: 300px;
+    position: fixed;
 }
 
 .bottom-right-fixed {
     bottom: 0;
-    right: 20px;
-    height: 400px;
+    right: 0px;
+    height: 250px;
     position: absolute;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: rgb(158, 151, 151);
+    bottom: 0%;
 }

@@ -1,0 +1,22 @@
+.box {
+    width: 825px;
+    padding: 35px;
+    border: 2px dashed rgb(146, 140, 140);
+ }
+ .box-container {
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+     z-index: 1000;
+     align-items: center;
+     gap: 20px;
+ }
+
+.box-title {
+    font-size: 11px;
+}
+
+.box-text {
+    color: rgb(158, 151, 151);
+    font-size: 20px;
+}
