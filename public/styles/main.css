@@ -23,7 +23,7 @@ body {
 
 .hanging-plant {
     height: 200px;
-    position: fixed;
+    position: absolute;
     left: 50%;
     top: -8%;
     transform: translateX(-50%);
@@ -32,8 +32,8 @@ body {
 .bottom-left-fixed {
     bottom: 0;
     left: 0;
-    height: 300px;
-    position: fixed;
+    height: 250px;
+    position: absolute;
 }
 
 .bottom-right-fixed {
