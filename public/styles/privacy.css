@@ -1,0 +1,15 @@
+.privacy-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+.privacy-text {
+    color: var(--text-color);
+    font-size: 18px;
+}
+.highlighted-privacy-text {
+    color: rgb(54, 78, 156);
+}

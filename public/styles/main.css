@@ -1,6 +1,7 @@
 
 :root {
     --background-colour: #1a1c1e;
+    --text-color: rgb(158, 151, 151);
 }
 
 body {
@@ -45,6 +46,6 @@ body {
 
 .footer-text {
     font-size: 14px;
-    color: rgb(158, 151, 151);
+    color: var(--text-color);
     bottom: 0%;
 }
