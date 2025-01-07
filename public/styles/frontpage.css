@@ -18,6 +18,10 @@
     padding: 10px;
     height: 100%;
 }
+.frontpage-link-text {
+    font-size: 15px;
+    color: rgb(54, 78, 156);
+}
 
 
 .frontpage-pfp {

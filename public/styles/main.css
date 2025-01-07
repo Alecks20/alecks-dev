@@ -49,3 +49,7 @@ body {
     color: var(--text-color);
     bottom: 0%;
 }
+
+.link-text {
+    color: rgb(54, 78, 156);
+}
