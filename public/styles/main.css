@@ -24,7 +24,7 @@ body {
 
 .hanging-plant {
     height: 200px;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: -8%;
     transform: translateX(-50%);
