@@ -13,6 +13,7 @@ app.get("/privacy", (req, res) => {
     res.render("privacy.ejs");
 });
 
+
 app.listen(port, () => {
     console.log(`App listening on ${port}`)
 })
