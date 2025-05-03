@@ -1,7 +1,8 @@
 
+
 :root {
-    --background-colour: #1a1c1e;
-    --text-color: rgb(158, 151, 151);
+    --background-colour: #161616;
+    --text-color: rgb(212, 212, 212);
 }
 
 body {
@@ -51,5 +52,5 @@ body {
 }
 
 .link-text {
-    color: rgb(54, 78, 156);
+    color: rgb(63, 90, 179);
 }

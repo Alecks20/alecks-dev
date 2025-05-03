@@ -1,9 +1,9 @@
 .privacy-container {
     justify-content: center;
-    display: flex;
     flex-direction: column;
     width: 500px;
     margin: 0 auto;
+    margin-bottom: 0;
 }
 .privacy-text {
     color: var(--text-color);
@@ -13,5 +13,5 @@
     color: rgb(54, 78, 156);
 }
 .privacy-title {
-    font-size: 23px;
+    font-size: 30px;
 }

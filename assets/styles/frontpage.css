@@ -9,7 +9,7 @@
     font-size: 15px;
 }
 .frontpage-text-smaller {
-    font-size: 19px;
+    font-size: 25px;
 }
 .frontpage-text-left-padding {
     padding-left: 20px;
@@ -33,7 +33,7 @@
 
     border-radius: 50%;
     border: 2px dashed var(--text-color);
-    padding: 10px;
+    padding: 12.5px;
 }
 .frontpage-pfp-container {
     display: flex;
@@ -52,7 +52,7 @@
 .frontpage-box {
    width: 825px;
    min-height: 350px;
-   padding: 35px;
+   padding: 40px;
    border: 2px dashed var(--text-color);
 }
 

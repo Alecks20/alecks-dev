@@ -1,7 +1,7 @@
 .box {
     width: 825px;
     padding: 35px;
-    border: 2px dashed rgb(146, 140, 140);
+    border: 2px dashed var(--text-color);;
  }
  .box-container {
      flex-direction: column;
@@ -17,6 +17,6 @@
 }
 
 .box-text {
-    color: rgb(158, 151, 151);
-    font-size: 20px;
+    color: var(--text-color);
+    font-size: 19px;
 }
