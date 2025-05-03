@@ -13,6 +13,10 @@ app.get("/privacy", (req, res) => {
     res.render("privacy.ejs");
 });
 
+app.get("/chat", (req, res) => {
+    res.render("chat.ejs");
+});
+
 
 app.listen(port, () => {
     console.log(`App listening on ${port}`)
