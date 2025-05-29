@@ -1,0 +1,43 @@
+
+.nav-box {
+   width: 825px;
+   padding: 15px;
+   border: 2px dashed var(--text-color);
+   background-color: var(--box-colour);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 40px;
+   padding-right: 40px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.nav-container {
+   margin-top: 200px;
+   margin-bottom: 15px;
+}
+
+.nav-text {
+    color: var(--text-color);
+}
+
+.nav-title {
+  margin: 0;
+  text-align: left;
+  padding-left: 0px;
+  font-size: 19px;
+}
+
+.nav-link-text {
+    color: var(--link-text-colour);
+}
+
+.nav-link-text:hover {
+   color: var(--link-text-hover-colour)
+}
+
+.nav-remove-hyperlink {
+   color: var(--text-color);
+   text-decoration: none;
+}

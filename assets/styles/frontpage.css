@@ -57,14 +57,13 @@
    min-height: 350px;
    padding: 40px;
    border: 2px dashed var(--text-color);
+   background-color: var(--box-colour);
 }
 
 .frontpage-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    z-index: 1000;
 }
 
 .bottom-image {

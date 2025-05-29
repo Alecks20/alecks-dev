@@ -3,7 +3,10 @@
 :root {
     --background-colour: #0e0e0e;
     --text-color: rgb(212, 212, 212);
+    --text-color-2: rgb(163, 162, 162);
     --link-text-colour: rgb(69, 86, 139);
+    --link-text-hover-colour: rgb(69, 86, 139);
+    --box-colour: rgb(19, 19, 19);
 }
 
 ::selection {
