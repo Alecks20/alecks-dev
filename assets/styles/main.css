@@ -1,8 +1,14 @@
 
 
 :root {
-    --background-colour: #161616;
+    --background-colour: #0e0e0e;
     --text-color: rgb(212, 212, 212);
+    --link-text-colour: rgb(69, 86, 139);
+}
+
+::selection {
+  color: var(--text-color);
+  background: var(--link-text-colour);
 }
 
 body {
@@ -56,5 +62,24 @@ body {
 }
 
 .link-text {
-    color: rgb(63, 90, 179);
+    color: var(--link-text-colour);
+}
+
+.txt404 {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.txt404-1 {
+    margin-bottom: 0;
+    font-size: 200px;
+    margin-top: 0;
+}
+
+.box404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: 1000;
 }

@@ -10,7 +10,7 @@
     font-size: 18px;
 }
 .highlighted-privacy-text {
-    color: rgb(54, 78, 156);
+    color: var(--link-text-colour);
 }
 .privacy-title {
     font-size: 30px;

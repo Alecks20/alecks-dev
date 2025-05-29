@@ -23,7 +23,7 @@
 }
 .frontpage-link-text {
     font-size: 15px;
-    color: rgb(54, 78, 156);
+    color: var(--link-text-colour);
 }
 
 
