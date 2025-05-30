@@ -18,6 +18,10 @@ app.get("/experience", (req, res) => {
     res.render("experience.ejs");
 });
 
+app.get("/garden", (req, res) => {
+    res.render("garden.ejs");
+});
+
 
 app.use((req, res, next) => {
   res.status(404).sendFile(path.join(__dirname, 'views/404.html'));

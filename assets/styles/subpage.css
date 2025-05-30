@@ -3,7 +3,7 @@
 .subpage-text {
     color: var(--text-color);
     display: flex;
-    font-size: 22px;
+    font-size: 20px;
 }
 .subpage-text-small {
     font-size: 15px;
