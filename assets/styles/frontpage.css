@@ -5,8 +5,9 @@
     display: flex;
     font-size: 20px;
 }
+
 .frontpage-text-small {
-    font-size: 15px;
+    font-size: 17px;
 }
 .frontpage-text-small2 {
     font-size: 17.5px;
@@ -22,7 +23,7 @@
     height: 100%;
 }
 .frontpage-link-text {
-    font-size: 15px;
+    font-size: 17px;
     color: var(--link-text-colour);
 }
 
@@ -47,7 +48,7 @@
 }
 .frontpage-pfp-text {
     color: var(--text-color);
-    font-size: 15px;
+    font-size: 17px;
     padding-top: 10px;
     text-align: center;
 }
@@ -55,7 +56,7 @@
 .frontpage-box {
    width: 825px;
    min-height: 350px;
-   padding: 40px;
+   padding: 30px;
    border: 2px dashed var(--text-color);
    background-color: var(--box-colour);
 }

@@ -1,6 +1,6 @@
 .box {
     width: 825px;
-    padding: 40px;
+    padding: 25px;
     border: 2px dashed var(--text-color);
     background-color: var(--box-colour);
     margin-top: 15px;

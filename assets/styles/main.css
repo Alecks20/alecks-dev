@@ -1,12 +1,12 @@
 
 
 :root {
-    --background-colour: #0e0e0e;
-    --text-color: rgb(212, 212, 212);
-    --text-color-2: rgb(163, 162, 162);
-    --link-text-colour: rgb(69, 86, 139);
-    --link-text-hover-colour: rgb(69, 86, 139);
-    --box-colour: rgb(19, 19, 19);
+    --text-color: rgb(163, 146, 146);
+    --text-color-2: rgb(150, 136, 136);
+    --link-text-colour: rgb(88, 99, 133);
+    --link-text-hover-colour: rgb(86, 90, 100);
+    --box-colour: rgb(37, 36, 36);
+    --box-colour-2: rgb(27, 26, 26);
 }
 
 ::selection {
@@ -14,9 +14,15 @@
   background: var(--link-text-colour);
 }
 
-body {
+body-old {
     font: calc(0.40rem + 1vmin) monospace;
     background-color: var(--background-colour);
+}
+
+body {
+    background-color: rgb(31, 29, 29);
+    font: calc(0.50rem + 1vmin) monospace;
+
 }
 
 .float-left {
@@ -92,8 +98,4 @@ body {
        top: 50%;
        left: 8%;
        transform: translate(-50%, -50%);
-}
-
-.webring-box  {
-    
 }
