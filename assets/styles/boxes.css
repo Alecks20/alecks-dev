@@ -1,0 +1,26 @@
+.box {
+    width: 825px;
+    padding: 25px;
+    border: 2px dashed var(--text-color);
+    background-color: var(--box-colour);
+    margin-top: 15px;
+ }
+ .box-container {
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+.box-title {
+    font-size: 11px;
+}
+
+.box-text {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.chat-box-text {
+    font-size: 18px;
+}

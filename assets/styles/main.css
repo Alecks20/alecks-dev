@@ -1,0 +1,117 @@
+
+
+:root {
+    --text-color: rgb(163, 146, 146);
+    --text-color-2: rgb(150, 136, 136);
+    --link-text-colour: rgb(88, 99, 133);
+    --link-text-hover-colour: rgb(86, 90, 100);
+    --box-colour: rgb(37, 36, 36);
+    --box-colour-2: rgb(27, 26, 26);
+}
+
+@font-face {
+  font-family: "BerkeleyMono";
+  src:
+  url("/assets/fonts/BerkeleyMono-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BerkeleyMono";
+  src:
+    url("/assets/fonts/BerkeleyMono-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+::selection {
+  color: var(--text-color);
+  background: var(--link-text-colour);
+}
+
+body-old {
+    font: calc(0.40rem + 1vmin) monospace;
+    background-color: var(--background-colour);
+}
+
+body {
+    background-color: rgb(31, 29, 29);
+    font: calc(0.50rem + 1vmin) BerkeleyMono;
+}
+
+.float-left {
+    float : left;
+}
+
+.remove-bottom-margin {
+   margin-bottom: 0px;
+}
+
+.float-right {
+    float: right;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.hanging-plant {
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: -8%;
+    transform: translateX(-50%);
+}
+
+.bottom-left-fixed {
+    bottom: 0;
+    left: 0;
+    height: 250px;
+    position: absolute;
+}
+
+.bottom-right-fixed {
+    bottom: 0;
+    right: 0px;
+    height: 200px;
+    position: absolute;
+    margin-right: 25px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: var(--text-color);
+    bottom: 0%;
+}
+
+.link-text {
+    color: var(--link-text-colour);
+}
+
+.txt404 {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.txt404-1 {
+    margin-bottom: 0;
+    font-size: 200px;
+    margin-top: 0;
+}
+
+.box404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: 1000;
+}
+
+.webring-box-container {
+       position: absolute;
+       top: 50%;
+       left: 8%;
+       transform: translate(-50%, -50%);
+}
