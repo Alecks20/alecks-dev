@@ -26,7 +26,7 @@
 }
 
 ::selection {
-  color: var(--text-color);
+  color: white;
   background: var(--link-text-colour);
 }
 
