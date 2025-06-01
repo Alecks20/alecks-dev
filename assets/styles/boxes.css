@@ -24,3 +24,10 @@
 .chat-box-text {
     font-size: 18px;
 }
+
+.box-link-text {
+    color: var(--link-text-colour);
+}
+.box-link-text:hover {
+    color: var(--link-text-hover-colour);
+}

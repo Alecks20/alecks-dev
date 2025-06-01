@@ -26,6 +26,9 @@
     font-size: 17px;
     color: var(--link-text-colour);
 }
+.frontpage-link-text:hover {
+    color: var(--link-text-hover-colour);
+}
 
 
 .frontpage-pfp {
