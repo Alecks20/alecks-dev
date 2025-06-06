@@ -6,7 +6,7 @@
 }
 .subpage-text code {
     color: var(--text-color);
-    font-size: 18px;
+    font-size: 16px;
     background-color: var(--box-colour-2);
 }
 .subpage-text pre {

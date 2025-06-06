@@ -2,7 +2,7 @@
 author: "Alecks"
 title: "Oracle cloud is a horrible platform"
 date: "2024-03-10"
-description: "My experience with the oracle cloud free tier"
+description: "Some complains I have with oracle cloud's free tier."
 slug: oracle-cloud-rant
 ---
 

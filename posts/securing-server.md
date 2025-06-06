@@ -2,7 +2,7 @@
 author: "Alecks"
 title: Securing ssh on your Linux Server
 date: "2024-04-25"
-description: "This post is made for debian based linux distros"
+description: "SSH keys, configuration updates and NTFY login notifications."
 #tags: [
 #  - linux,
 #  - servers,
