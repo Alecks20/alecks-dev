@@ -29,6 +29,10 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
+app.get("/homelab", (req, res) => {
+    res.render("homelab");
+});
+
 app.get('/post/:name', (req, res) => {
   const postPath = path.join(__dirname, 'posts', `${req.params.name}.md`);
   fs.readFile(postPath, 'utf8', (err, content) => {

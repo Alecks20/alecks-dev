@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Loading in stylesheets -->
+    <link rel="stylesheet" href="/assets/styles/main.css">
+    <link rel="stylesheet" href="/assets/styles/frontpage.css">
+    <link rel="stylesheet" href="/assets/styles/nav.css">
+    <link rel="stylesheet" href="/assets/styles/boxes.css">
+    <link rel="stylesheet" href="/assets/styles/subpage.css">
+
+    <script defer src="https://analytics.alecks.dev/script.js" data-website-id="2f79e82a-b4e5-443a-a3c7-eabea5c9dd61"></script>
+
+    <title>Homelab | Alecks</title>
+
+</head>
+<body>
+
+   <%- include('partials/navbar') %>
+        
+    <div class="subpage-container">
+        <div class="subpage-box">
+            <div class="frontpage-text-box">
+                <h3 class="box-text frontpage-text-small">Service Notice</h3>
+                <p class="box-text">
+                    My homelab is currently down for maintenance until the end of this year, services should all be back up by then.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="frontpage-text-box">
+                <h3 class="box-text frontpage-text-small">Compute Nodes</h3>
+                <p class="box-text">
+                <b>Tofu</b> - primary compute node, great performance for game servers, docker containers, websites and other miscellaneous services.
+                
+                <br><br>
+                <b>CPU:</b> Ryzen 5 5500 (3.6GHz, 6c 12t)
+                <br>
+                <b>Memory/RAM:</b> 32GB DDR4 3200Mhz
+                <br>
+                <b>Storage: </b> 256GB SATA (Boot), 2 1TB SATA's (Raid 1) (VMs)
+                <br>
+                <b>OS: </b> Proxmox VE (Debian)
+            </div>
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="frontpage-text-box">
+                <h3 class="box-text frontpage-text-small">Network, monitoring and backups</h3>
+                <p class="box-text">
+                Systems are connected to the internet via fttp , nodes have their own static ip address protected with <a class="link-text" href="https://globalsecurelayer.com" target="_blank">gsl ddos protection</a>.
+
+                <br><br>
+                Nodes are monitored with <a class="link-text" href="https://hetrixtools" target="_blank">hetrixtools</a> in combination with <a class="link-text" href="https://ntfy.sh" target="_blank">ntfy</a> to monitor uptime, cpu, ram, storage and bandwidth usage.
+
+                <br><br>
+                Encrypted backups of server disks are sent to <a class="link-text" href="https://wasabi.com" target="_blank">wasabi</a>.
+
+                </p>
+        </div>
+
+    </div>
+
+
+
+
+    <div style="margin-bottom: 200px;"></div>
+
+
+</body>
+</html>
