@@ -22,7 +22,7 @@
 
    <%- include('partials/navbar') %>
         
-    <div class="subpage-container">
+    <!-- <div class="subpage-container">
         <div class="subpage-box">
             <div class="frontpage-text-box">
                 <h3 class="box-text frontpage-text-small">Service Notice</h3>
@@ -31,21 +31,21 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="box-container">
-        <div class="box">
+    <div class="subpage-container">
+        <div class="subpage-box">
             <div class="frontpage-text-box">
                 <h3 class="box-text frontpage-text-small">Compute Nodes</h3>
                 <p class="box-text">
-                <b>Tofu</b> - primary compute node, great performance for game servers, docker containers, websites and other miscellaneous services.
+                <b>Pyro</b> - primary compute node (for now), fine performance for game servers, docker containers, websites and other services.
                 
                 <br><br>
-                <b>CPU:</b> Ryzen 5 5500 (3.6GHz, 6c 12t)
+                <b>CPU:</b> i7-4770 (3.9GHz, 4c 8t)
                 <br>
-                <b>Memory/RAM:</b> 32GB DDR4 3200Mhz
+                <b>Memory/RAM:</b> 16GB DDR3
                 <br>
-                <b>Storage: </b> 256GB SATA (Boot), 2 1TB SATA's (Raid 1) (VMs)
+                <b>Storage: </b> 256GB SATA SSD
                 <br>
                 <b>OS: </b> Proxmox VE (Debian)
             </div>
@@ -57,13 +57,13 @@
             <div class="frontpage-text-box">
                 <h3 class="box-text frontpage-text-small">Network, monitoring and backups</h3>
                 <p class="box-text">
-                Systems are connected to the internet via fttp , nodes have their own static ip address protected with <a class="link-text" href="https://globalsecurelayer.com" target="_blank">gsl ddos protection</a>.
+                Systems are connected to the internet via fttp, each have their own static ip address protected with <a class="link-text" href="https://globalsecurelayer.com/ddos-protection" target="_blank">gsl ddos protection</a>.
 
                 <br><br>
                 Nodes are monitored with <a class="link-text" href="https://hetrixtools" target="_blank">hetrixtools</a> in combination with <a class="link-text" href="https://ntfy.sh" target="_blank">ntfy</a> to monitor uptime, cpu, ram, storage and bandwidth usage.
 
                 <br><br>
-                Encrypted backups of server disks are sent to <a class="link-text" href="https://wasabi.com" target="_blank">wasabi</a>.
+                Encrypted backups of server disks are sent to <a class="link-text" href="https://backblaze.com" target="_blank">Backblaze</a>.
 
                 </p>
         </div>
