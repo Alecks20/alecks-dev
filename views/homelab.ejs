@@ -38,8 +38,20 @@
             <div class="frontpage-text-box">
                 <h3 class="box-text frontpage-text-small">Compute Nodes</h3>
                 <p class="box-text">
-                <b>Pyro</b> - primary compute node (for now), fine performance for game servers, docker containers, websites and other services.
+                <b>Kylos</b> - primary compute node, energy efficient and reliable.
                 
+                <br><br>
+                <b>CPU:</b> i5 7400T (2.4GHz, 4c 4t)
+                <br>
+                <b>Memory/RAM:</b> 8GB DDR4
+                <br>
+                <b>Storage: </b> 128GB SATA SSD
+                <br>
+                <b>OS: </b> Ubuntu 24.04
+                <br>
+                <b>Hosts: </b> Caddy, Pterodactyl (Panel), <b>This website</b> and Umami
+                <br><br>
+                <b>Pyro</b> - dedicated gameserver node, runs small friendgroup servers very smoothly (minecraft, terraria, valheim, ark).
                 <br><br>
                 <b>CPU:</b> i7-4770 (3.9GHz, 4c 8t)
                 <br>
@@ -47,7 +59,9 @@
                 <br>
                 <b>Storage: </b> 256GB SATA SSD
                 <br>
-                <b>OS: </b> Proxmox VE (Debian)
+                <b>OS: </b> Debian 12
+                <br>
+                <b>Hosts: </b> Pterodactyl (Wings)
             </div>
         </div>
     </div>
@@ -57,16 +71,18 @@
             <div class="frontpage-text-box">
                 <h3 class="box-text frontpage-text-small">Network, monitoring and backups</h3>
                 <p class="box-text">
-                Systems are connected to the internet via fttp, each have their own static ip address protected with <a class="link-text" href="https://globalsecurelayer.com/ddos-protection" target="_blank">gsl ddos protection</a>.
+                Nodes share a gigabit fibre line, protected with <a class="link-text" href="https://globalsecurelayer.com/ddos-protection" target="_blank">GSL</a>.
 
                 <br><br>
-                Nodes are monitored with <a class="link-text" href="https://hetrixtools" target="_blank">hetrixtools</a> in combination with <a class="link-text" href="https://ntfy.sh" target="_blank">ntfy</a> to monitor uptime, cpu, ram, storage and bandwidth usage.
+                Nodes are monitored with <a class="link-text" href="https://hetrixtools.com" target="_blank">HetrixTools</a> to monitor uptime, cpu, ram, storage and bandwidth usage, <a class="link-text" href="https://ntfy.sh" target="_blank">NTFY</a> is used for real-time push notifications about incidents.
 
                 <br><br>
-                Encrypted backups of server disks are sent to <a class="link-text" href="https://backblaze.com" target="_blank">Backblaze</a>.
+                Encrypted backups of server disks are sent to <a class="link-text" href="https://backblaze.com" target="_blank">Backblaze</a> as an offsite backup.
 
                 </p>
         </div>
+
+    </div>
 
     </div>
 
