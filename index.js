@@ -41,7 +41,7 @@ app.get('/post/:name', (req, res) => {
     const parsed = matter(content); 
     const htmlContent = marked.parse(parsed.content);
 
-    res.render('post', { description: parsed.data.description, author: parsed.data.author, date: parsed.data.date, title: parsed.data.title, content: htmlContent });
+    res.render('post', { description: parsed.data.description, author: parsed.data.author, date: formatDate(parsed.data.date), title: parsed.data.title, content: htmlContent });
   });
 });
 
@@ -54,26 +54,44 @@ app.get('/posts', (req, res) => {
       return res.status(500).send('Error reading posts directory');
     }
 
-    const posts = files
-      .filter(file => file.endsWith('.md'))
-      .map(file => {
-        const fullPath = path.join(postsDir, file);
-        const content = fs.readFileSync(fullPath, 'utf8');
-        const parsed = matter(content);
+  const posts = files
+    .filter(file => file.endsWith('.md'))
+    .map(file => {
+      const fullPath = path.join(postsDir, file);
+      const content = fs.readFileSync(fullPath, 'utf8');
+      const parsed = matter(content);
 
-        return {
-          title: parsed.data.title || file.replace('.md', ''),
-          description: parsed.data.description || '',
-          date: parsed.data.date || 'Unknown',
-          author: parsed.data.author || 'Unknown',
-          filename: file,
-          slug: file.replace('.md', '')
-        };
-      });
+      return {
+        title: parsed.data.title || file.replace('.md', ''),
+        description: parsed.data.description || '',
+        date: parsed.data.dates || '1970-01-01',
+        formattedDate: formatDate(parsed.data.date) || 'Unknown',
+        author: parsed.data.author || 'Unknown',
+        filename: file,
+        slug: file.replace('.md', '')
+      };
+    })
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
 
     res.render('posts', { posts });
   });
-});
+}  );
+
+function formatDate(dateStr) {
+  const date = new Date(dateStr);
+
+  const day = date.getDate();
+  const month = date.toLocaleString('default', { month: 'long' });
+  const year = date.getFullYear();
+
+  const getOrdinal = (n) => {
+    const s = ["th", "st", "nd", "rd"];
+    const v = n % 100;
+    return s[(v - 20) % 10] || s[v] || s[0];
+  };
+
+  return `${day}${getOrdinal(day)} of ${month} ${year}`;
+}
 
 
 app.use((req, res, next) => {
