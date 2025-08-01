@@ -1,11 +1,10 @@
 
-
 :root {
-    --text-color: rgb(163, 146, 146);
-    --text-color-2: rgb(150, 136, 136);
-    --link-text-colour: rgb(88, 99, 133);
-    --link-text-hover-colour: rgb(86, 90, 100);
-    --box-colour: rgb(37, 36, 36);
+    --text-color: rgb(189, 182, 182);
+    --text-color-2: rgb(177, 172, 172);
+    --link-text-colour: rgb(111, 127, 168);
+    --link-text-hover-colour: rgb(131, 138, 153);
+    --box-colour: rgb(36, 35, 35);
     --box-colour-2: rgb(27, 26, 26);
     --highlight-text-color: rgb(34, 34, 34);
 }
@@ -37,7 +36,7 @@ body-old {
 }
 
 body {
-    background-color: rgb(29, 28, 28);
+    background-color: rgb(20, 20, 20);
     font: calc(0.50rem + 1vmin) BerkeleyMono;
 }
 
